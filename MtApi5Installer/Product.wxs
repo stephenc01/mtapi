@@ -116,7 +116,7 @@
 
             <Component Id="MTApiServiceDllGAC" Guid="6CD24D64-7DA1-4015-A5B3-B17C2488998C" Directory="GAC">
                 <File Id="MTApiService.dll" Name="MTApiService.dll" KeyPath="yes"
-                    src="$(var.ProductPath)MTApiService.dll" Checksum="yes"
+                    Source="$(var.ProductPath)MTApiService.dll" Checksum="yes"
                     Assembly=".net" AssemblyManifest="MTApiService.dll" Vital="yes" />
             </Component>
 
